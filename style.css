@@ -1,0 +1,253 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    display: flex;
+}
+
+.navbar img {
+    padding: 5px;
+    width: 100px;
+}
+
+.navbar h1 {
+    font-size: 40px;
+    margin-top: 25px;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar p {
+    font-size: 20px;
+    margin-top: 43px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.search input {
+    padding: 2px 6px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.search2 {
+    margin-left: 5px;
+    background-color: rgb(125, 111, 252);
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2 {
+    font-size: 30px;
+    margin: 50px 0px 24px 50px;
+}
+.container textarea {
+    margin-left: 50px;
+}
+.container input {
+    margin-left: 50px;
+}
+.container .fas {
+    margin-left: 70px;
+    margin-top: 120px;
+}
+.addHead{
+    margin-bottom: 15px;
+}
+
+#notes {
+    margin-left: 20px;
+}
+
+.search .btn {
+    margin-left: 5px;
+    background-color: rgb(125, 111, 252);
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: background 0.5s;
+    transition: color 0.5s;
+    outline: none;
+}
+
+.search .btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.card-body .btn-del {
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: rgb(125, 111, 252);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: black;
+    transition: background 0.5s;
+    transition: color 0.5s;
+}
+
+.btn2 {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: rgb(125, 111, 252);
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: background 0.5s;
+    transition: color 0.5s;
+}
+
+.btn2:hover {
+    background-color: red;
+    color: white;
+}
+
+.container .btn:hover {
+    background-color: red;
+}
+
+.container textarea {
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+#instructions{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa {
+    font-size: 15px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+
+.eye {
+    position: absolute;
+    margin-left: -1%;
+}
+
+#card-body {
+    border: 2px solid blue;
+    background-color: black;
+    color: white;
+}
+.list{
+    margin-bottom: 100px;
+}
+#addTitle {
+    width: 40%;
+    height: 50px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+#addTitle::placeholder{
+    color: black;
+}
+#addTxt{
+    width: 60%;
+    padding: 10px 6px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#addTxt::placeholder{
+    color: black;
+}
+.add{
+    display: flex;
+    flex-direction: row;
+}
+#note1{
+    border: 0px;
+}
+#note2{
+    border: 0px;
+}
+#note3{
+    border: 0px;
+}
+#note4{
+    border: 0px;
+}
+#note5{
+    border: 0px;
+}
+#note6{
+    border: 0px;
+}
+#note7{
+    border: 0px;
+}
+#note8{
+    border: 0px;
+}
+#note9{
+    border: 0px;
+}
+#note10{
+    border: 0px;
+}
+#note11{
+    border: 0px;
+}
+#note12{
+    border: 0px;
+}
+#note13{
+    border: 0px;
+}
+#note14{
+    border: 0px;
+}
+#note15{
+    border: 0px;
+}#note16{
+    border: 0px;
+}
+
+.card-body{
+    padding: 10px 6px;
+    border-radius: 10px;
+    border: 1px solid black;   
+
+}
